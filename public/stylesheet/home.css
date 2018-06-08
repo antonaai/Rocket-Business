@@ -26,15 +26,31 @@ html, body{
     font-weight: bold;
 }
 
-#short{
-    width: 100%;
-    height: 100%;
-    padding-top: 100px;
-}
-
 #centerHead {
     position: absolute;
     top: 40%;
     left: 27%;
     font-size: 5em;
+}
+
+ol {
+    list-style-type: none;
+}
+
+#vantaggi h3{
+    font-size: 2.3em;
+}
+
+#vantaggi {
+    background: #fff;
+}
+
+#advantages {
+    padding-top: 10%; 
+    padding-left: 5%;
+    padding-bottom: 10%;
+    background: url("https://images.pexels.com/photos/1011329/pexels-photo-1011329.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
