@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta content="author" description="Antonio Aiello">
+        <title>Rocket Business</title>
+        <!-- Semantic UI cdn-->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.1/semantic.min.css" type="text/css" rel="stylesheet">
+        <link href="./stylesheet/portfolio.css" type="text/css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="ui large secondary pointing menu">
+            <a href="/" class="item"><i class="rocket icon"></i>Rocket Business</a>
+            <a href="/portfolio" class="active item"><i class="paper plane outline icon"></i> Portfolio</a>
+            <div class="right menu">
+                <a href="/about" class="item"><i class="handshake outline icon"></i> Su di noi</a>
+            </div>
+        </div>
+        <div class="show">
+            <h1 class="ui header">Portfolio</h1>
+            <p>Questa pagina è dedicata ad esempi di ciò che possiamo creare per te, i progetti che vedi sono stati creati con il solo scopo di mostrare alcuni dei nostri prodotti, se ciò che desideri non si trova qui contattaci e cercheremo di trovare una soluazione adatta a te!</p>
+        </div>
+        <div id="contenitore" class="ui container">
+            <div class="ui grid">
+                <div class="row">
+                    <!-- CARTA PAGINA STATICA-->
+                    <div class="four wide column">
+                        <div class="ui card">
+                          <div class="image">
+                            <img src="https://images.pexels.com/photos/796602/pexels-photo-796602.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940">
+                          </div>
+                          <div class="content">
+                            <a href="/portfolio/imagegallery" class="header">Pagina statica</a>
+                            <div class="description">
+                              Una pagina statica dove puoi mostrare le tue creazioni
+                            </div>
+                          </div>
+                          <div class="extra content">
+                            <a href="/portfolio/imagegallery" class="ui button">Vai!</a>
+                          </div>
+                        </div>
+                    </div>
+                    <!-- CARTA UNA PAGINE DI ACCESSO -->
+                    <div class="four wide column">
+                        <div class="ui card">
+                          <div class="image">
+                            <img src="https://images.pexels.com/photos/267469/pexels-photo-267469.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940">
+                          </div>
+                          <div class="content">
+                            <a href="/portfolio/loginform" class="header">Una pagina di accesso</a>
+                            <div class="description">
+                              Una pagina tramite la quale i tuoi utenti possono accedere
+                            </div>
+                          </div>
+                          <div class="extra content">
+                            <a href="/portfolio/loginform" class="ui button">Vai!</a>
+                          </div>
+                        </div>
+                    </div>
+                    <!-- CARTA ESEMPIO DI UN BLOG-->
+                    <div class="four wide column">
+                        <div class="ui card">
+                          <div class="image">
+                            <img src="https://images.pexels.com/photos/261579/pexels-photo-261579.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940">
+                          </div>
+                          <div class="content">
+                            <a class="header">Esempio di blog</a>
+                            <div class="description">
+                              Un blog semplice, qui gli utenti possono registrarsi, creare dei post e commentare.
+                            </div>
+                          </div>
+                          <div class="extra content">
+                            <a class="ui button">Vai!</a>
+                          </div>
+                        </div>
+                    </div>
+                    <!-- CARTA ESEMPIO CATALOGO DI UN NEGOZIO -->
+                    <div class="four wide column">
+                        <div class="ui card">
+                          <div class="image">
+                            <img src="https://images.pexels.com/photos/811108/pexels-photo-811108.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940">
+                          </div>
+                          <div class="content">
+                            <a href="https://evening-falls-49323.herokuapp.com/" class="header">Esempio catalogo di un negozio</a>
+                            <div class="description">
+                              Un sito web che mostra i prodotti di un negozio
+                            </div>
+                          </div>
+                          <div class="extra content">
+                            <a href="https://evening-falls-49323.herokuapp.com/" class="ui button">Vai!</a>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+<% include ./partials/footer.ejs %>
