@@ -39,15 +39,19 @@ ol {
 
 #vantaggi h3{
     font-size: 2.3em;
+    text-align: center;
+}
+
+#vantaggi a{
+    margin-bottom: 2%;
 }
 
 #vantaggi {
     background: #fff;
-    padding-left: 10%;
 }
 
 #advantages {
-    padding: 10% 5% 10% 5%;
+    padding: 10% 5% 10% 0;
     background: url("https://images.pexels.com/photos/1011329/pexels-photo-1011329.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
     background-repeat: no-repeat;
     background-size: cover;
