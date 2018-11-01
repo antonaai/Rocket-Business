@@ -1,6 +1,5 @@
 # Rocket-Business
-Sito web di un agenzia di web design online.
+Website of a web development agency.
+Inside the website, on the "Portfolio" page, you can find other projects I created.
 
-Nella pagina "Portfolio" si possono trovare altri progetti creati.
-
-Visita il sito <a href="https://rocky-hamlet-12842.herokuapp.com">qui</a>
+Check the website <a href="https://rocky-hamlet-12842.herokuapp.com">here</a>
